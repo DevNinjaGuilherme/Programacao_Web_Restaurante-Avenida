@@ -1,0 +1,43 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #f4f4f4; /* Altera a cor de fundo da página */
+  color: #e4e4e4; /* Altera a cor do texto */
+  background-color: #333;
+}
+
+h1, h2 {
+  text-align: center; /* Centraliza os títulos */
+}
+
+.figura {
+  width: 400px;
+  height: 250px;
+  display: block; /* Faz a imagem aparecer em sua própria linha */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+
+.destaque {
+  color: rgb(131, 122, 255);
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+button {
+  padding: 10px 20px; /* Adiciona padding ao botão */
+  border: none; /* Remove a borda do botão */
+  background-color: rgb(131, 122, 255);
+  color: white; /* Altera a cor do texto do botão */
+  cursor: pointer; /* Muda o cursor para um ponteiro quando passa sobre o botão */
+   font-family: "Rajdhani", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(131, 122, 255);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adiciona espaço entre os botões */
+}
